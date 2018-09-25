@@ -9,45 +9,20 @@ public class LoginPageObject {
 	public LoginPageObject(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
-  @FindBy(id = "username") public WebElement getUserName;
-
-  
-  @FindBy(name = "pwd") 
-  private WebElement password;
-  
-  @FindBy(id = "keepLoggedInCheckBox")
-  private WebElement keepMeChkBox;
-  
-  @FindBy(id = "loginButton")
-  private WebElement loginButton;
-  
-  @FindBy(xpath = "//span[@class = 'errormsg']")
-  private WebElement errormessage;
-
-/*public WebElement getUserName() {
-	return userName;*/
+	@FindBy(id = "username") public WebElement getUserName;
 
 
-public WebElement getPassword() {
-	return password;
+	@FindBy(name = "pwd") public WebElement getPassword;
+
+	@FindBy(id = "keepLoggedInCheckBox") public WebElement getKeepMeChkBox;
+
+	@FindBy(id = "loginButton") public WebElement getLoginButton;
+
+	@FindBy(xpath = "//span[@class = 'errormsg']") public WebElement getErrormessage;
+
 }
 
-public WebElement getKeepMeChkBox() {
-	return keepMeChkBox;
-}
 
-public WebElement getLoginButton() {
-	return loginButton;
-}
-
-public WebElement getErrormessage() {
-	return errormessage;
-}
-	
-
-
-	
-}
 
 
 

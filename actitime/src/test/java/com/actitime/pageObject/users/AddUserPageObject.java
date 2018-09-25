@@ -10,101 +10,28 @@ public class AddUserPageObject {
 	{
 		PageFactory.initElements(driver, this);
 	}
-	 @FindBy(xpath = "//a[@class = 'content users']")
-	 private WebElement user;
-	 
-	 @FindBy(xpath = "//div[@class = 'addUserButton beigeButton useNativeActive']")
-	 private WebElement addUserBtn;
-	 
-	 @FindBy(name = "firstName")
-	 private WebElement firstName; 
-	 
-	 @FindBy(name = "middleName")
-     private WebElement middleName;
-	 
-	@FindBy(name = "lastName")
-	private WebElement lastName;
-	
-	@FindBy(name = "email")
-	private WebElement email;
-	
-	@FindBy(name = "username")
-	private WebElement userName;
-	
-	@FindBy(name = "password")
-	private WebElement password;
-	
-	@FindBy(name = "passwordCopy")
-	private WebElement retypePassword;
-	
-	@FindBy(id = "userDataLightBox_commitBtn")
-	private WebElement createUser;
-	
-	@FindBy(xpath = "//span[@class = 'errormsg']")
-	private WebElement errorMsg;
-	
-	@FindBy(id = "userDataLightBox_timeZoneGroupValueCell")
-	private WebElement timeZonegroupdropdown;
-	
-	@FindBy(id = "ext-gen110")
-	private WebElement calender;
-	
-	public WebElement getUserTab() {
-		return user;
-	}
+	@FindBy(xpath = "//a[@class = 'content users']") public WebElement getUserTab;
 
-	public WebElement getAddUserBtn() {
-		return addUserBtn;
-	}
+	@FindBy(xpath = "//div[@class = 'addUserButton beigeButton useNativeActive']") public WebElement getAddUserBtn; 
 
-	public WebElement getFirstName() {
-		return firstName;
-	}
+	@FindBy(name = "firstName") public WebElement getFirstName; 
 
-	public WebElement getMiddleName() {
-		return middleName;
-	}
+	@FindBy(name = "middleName") public WebElement getMiddleName;
 
-	public WebElement getLastName() {
-		return lastName;
-	}
+	@FindBy(name = "lastName") public WebElement getLastName;
 
-	public WebElement getEmail() {
-		return email;
-	}
+	@FindBy(name = "email") public WebElement getEmail;
 
-	public WebElement getUserName() {
-		return userName;
-	}
+	@FindBy(name = "username") public WebElement getUserName;
 
-	public WebElement getPassword() {
-		return password;
-	}
+	@FindBy(name = "password") public WebElement getPassword;
 
-	public WebElement getRetypePassword() {
-		return retypePassword;
-	}
+	@FindBy(name = "passwordCopy") public WebElement getRetypePassword;
 
-	public WebElement getUser() {
-		return user;
-	}
+	@FindBy(id = "userDataLightBox_commitBtn") public WebElement getCreateUser;
 
-	public WebElement getCreateUser() {
-		return createUser;
-	}
+	@FindBy(xpath = "//span[@class = 'errormsg']") public WebElement getErrorMsg;
 
-	public WebElement getErrorMsg() {
-		return errorMsg;
-	}
-
-	
-
-	public WebElement getCalender() {
-		return calender;
-	}
-
-	public WebElement getTimeZonegroupdropdown() {
-		return timeZonegroupdropdown;
-	}
+	@FindBy(id = "userDataLightBox_timeZoneGroupValueCell") public WebElement getTimeZonegroupdropdown;
 
 }

@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27473" started-at="2018-09-25T17:07:10Z" finished-at="2018-09-25T17:07:38Z">
+  <suite name="Default suite" duration-ms="35644" started-at="2018-09-25T17:59:16Z" finished-at="2018-09-25T17:59:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27473" started-at="2018-09-25T17:07:10Z" finished-at="2018-09-25T17:07:38Z">
+    <test name="Default test" duration-ms="35644" started-at="2018-09-25T17:59:16Z" finished-at="2018-09-25T17:59:52Z">
       <class name="com.actitime.test.users.AddUserTest">
-        <test-method status="PASS" signature="intialization()[pri:0, instance:com.actitime.test.users.AddUserTest@14acaea5]" name="intialization" is-config="true" duration-ms="6105" started-at="2018-09-25T22:37:10Z" finished-at="2018-09-25T22:37:16Z">
+        <test-method status="PASS" signature="intialization()[pri:0, instance:com.actitime.test.users.AddUserTest@14acaea5]" name="intialization" is-config="true" duration-ms="6732" started-at="2018-09-25T23:29:17Z" finished-at="2018-09-25T23:29:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialization -->
-        <test-method status="PASS" signature="TC_01()[pri:0, instance:com.actitime.test.users.AddUserTest@14acaea5]" name="TC_01" duration-ms="8428" started-at="2018-09-25T22:37:16Z" finished-at="2018-09-25T22:37:25Z">
+        <test-method status="PASS" signature="TC_01()[pri:0, instance:com.actitime.test.users.AddUserTest@14acaea5]" name="TC_01" duration-ms="16291" started-at="2018-09-25T23:29:23Z" finished-at="2018-09-25T23:29:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01 -->
-        <test-method status="PASS" signature="TC_02()[pri:0, instance:com.actitime.test.users.AddUserTest@14acaea5]" name="TC_02" duration-ms="6754" started-at="2018-09-25T22:37:25Z" finished-at="2018-09-25T22:37:31Z">
+        <test-method status="PASS" signature="TC_02()[pri:0, instance:com.actitime.test.users.AddUserTest@14acaea5]" name="TC_02" duration-ms="6603" started-at="2018-09-25T23:29:40Z" finished-at="2018-09-25T23:29:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_02 -->
-        <test-method status="PASS" signature="TC_03()[pri:0, instance:com.actitime.test.users.AddUserTest@14acaea5]" name="TC_03" duration-ms="1739" started-at="2018-09-25T22:37:31Z" finished-at="2018-09-25T22:37:33Z">
+        <test-method status="PASS" signature="TC_03()[pri:0, instance:com.actitime.test.users.AddUserTest@14acaea5]" name="TC_03" duration-ms="1670" started-at="2018-09-25T23:29:46Z" finished-at="2018-09-25T23:29:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_03 -->
-        <test-method status="PASS" signature="TC_04()[pri:0, instance:com.actitime.test.users.AddUserTest@14acaea5]" name="TC_04" duration-ms="4378" started-at="2018-09-25T22:37:33Z" finished-at="2018-09-25T22:37:38Z">
+        <test-method status="PASS" signature="TC_04()[pri:0, instance:com.actitime.test.users.AddUserTest@14acaea5]" name="TC_04" duration-ms="4262" started-at="2018-09-25T23:29:48Z" finished-at="2018-09-25T23:29:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_04 -->

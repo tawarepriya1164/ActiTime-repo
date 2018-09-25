@@ -21,8 +21,8 @@ public class LoginPage {
 	public void loginToApplication(String userName,String password)
 	{
 		commonAction.enterText(loginPageObj.getUserName, userName);
-		commonAction.enterText(loginPageObj.getPassword(), password);
-		commonAction.click(loginPageObj.getLoginButton());
+		commonAction.enterText(loginPageObj.getPassword, password);
+		commonAction.click(loginPageObj.getLoginButton);
 
 	}
 	public void verifyHomePage(String expectedPageTitle)
@@ -35,7 +35,7 @@ public class LoginPage {
 	{
 		//new WaitHelper(driver).waitForElementToBeClickable(loginPageObj.getErrormessage(),10);
 		new WaitHelper(driver).pause(2);
-		 String actualMessage = loginPageObj.getErrormessage().getText();
+		 String actualMessage = loginPageObj.getErrormessage.getText();
 		new SoftAsserts().performSoftAssert(actualMessage, message);
 	}
 
